@@ -34,6 +34,17 @@ A simple and responsive **Weather Forecasting Web Application** that displays re
 
 ---
 
+## Configuration
+To use the OpenWeatherMap API, you need to obtain an API key. Follow these steps to set up your API key:
+Go to the OpenWeatherMap website: https://openweathermap.org/
+Sign up for a free account or log in if you already have an account.
+Once logged in, go to your profile and navigate to the "API Keys" section.
+Generate a new API key and copy it.
+In the project directory, locate the script.js file. Inside this file, you will find a constant called API_KEY. Replace the placeholder value 'YOUR_API_KEY' with your actual API key obtained from OpenWeatherMap.
+const API_KEY = 'YOUR_API_KEY';
+
+---
+
 ## ⚡ How It Works
 1. User enters a **city name**.  
 2. The app fetches data from **OpenWeatherMap API**.  
@@ -64,7 +75,7 @@ The project is deployed using GitHub Pages.
 ### 🔹 Search Result Example  
 <img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/e5e0c71e-5ce4-4c25-a6d1-c5d45a2e92d6" />
 
-## Troubleshooting
+##  Troubleshooting
 
 Image not found error? Ensure the image file exists and use the correct path.
 
