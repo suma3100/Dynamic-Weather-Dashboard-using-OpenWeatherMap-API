@@ -25,7 +25,9 @@ A simple and responsive **Weather Forecasting Web Application** that displays re
 ## 📂 Project Structure
      weather-project/
 │── index.html # Main HTML page
+
 │── index.css # Stylesheet
+
 │── /images # Weather icons (sun, cloud, rain, etc.)
 
 
